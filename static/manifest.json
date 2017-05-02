@@ -1,0 +1,25 @@
+{
+  "short_name": "Bermy.xyz",
+  "name": "Bermy.xyz",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/img/bermy-logo@1x.png",
+      "type": "image/png",
+      "sizes": "276x276"
+    },
+    {
+      "src": "/img/bermy-logo@2x.png",
+      "type": "image/png",
+      "sizes": "550x550"
+    },
+    {
+      "src": "/img/bermy-logo@3x.png",
+      "type": "image/png",
+      "sizes": "825x825"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen"
+}
