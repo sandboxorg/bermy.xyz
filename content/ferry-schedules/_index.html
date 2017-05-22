@@ -410,14 +410,15 @@ type = "bus route"
   </table>
 
 </blueroute>
-<pinkroute id="pinkroute" class="bg-pink white pv3 pv4-ns ph3 ph6-l flex flex-column items-center flex-auto">
+<pinkroute id="pinkroute" class="bg-pink white pv3 pv4-ns ph3 ph6-l flex flex-column items-center">
   <h1 class="f3 lh-title tc mb0">
     Pink Route<br><hr>Hamilton &bull; Paget &bull; Warwick<hr>
   </h1>
   <div class="measure flex flex-column">
   <p class="lh-copy">The most scenic transportation for visitors and residents who are staying along or near Harbour Road. A delightful cruise through the inner harbour islands past charming Bermuda cottages and stately homes. A year-round service.</p>
   </div>
-  <div class="overflow-x-auto">
+  <!-- media queries for setting width -->
+  <div style="width:370px;" class="overflow-scroll">
     <table class="collapse bg-light-pink black ba br2 b--black-10 pv2 ph3 tc">
       <caption class="white f3 f4-ns pv2">
         Monday - Friday
@@ -760,64 +761,67 @@ type = "bus route"
       <div class="w-90 pl2 lh-copy">Accessible to persons with disability</div>
     </div>
   </div>
-  <table class="collapse bg-light-green black ba br2 b--black-10 pv2 ph3 tc">
-    <caption class="white f3 f4-ns pv2">
-      Monday - Friday
-    </caption>
-    <thead>
-      <tr class="">
-        <th class="f5 lh-copy fw6 pv2 ph3">Leave Hamilton</th>
-        <th class="f5 lh-copy fw6 pv2 ph3">Leave Watford Bridge</th>
-        <th class="f5 lh-copy fw6 pv2 ph3">Leave Cavello Bay</th>
-        <th class="f5 lh-copy fw6 pv2 ph3">Leave Rockaway</th>
-        <th class="f5 lh-copy fw6 pv2 ph3">Arrive Hamilton</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">6:40 AM</td>
-        <td class="pv2 ph3">7:00 AM</td>
-        <td class="pv2 ph3">7:10 AM</td>
-        <td class="pv2 ph3">7:20 AM</td>
-        <td class="pv2 ph3">7:45 AM</td>
-      </tr>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">7:10</td>
-        <td class="pv2 ph3">-</td>
-        <td class="pv2 ph3">-</td>
-        <td class="pv2 ph3">7:55</td>
-        <td class="pv2 ph3">8:15</td>
-      </tr>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">7:45</td>
-        <td class="pv2 ph3">8:00</td>
-        <td class="pv2 ph3">8:10</td>
-        <td class="pv2 ph3">8:20</td>
-        <td class="pv2 ph3">8:45</td>
-      </tr>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">4:10</td>
-        <td class="pv2 ph3">4:50</td>
-        <td class="pv2 ph3">4:40</td>
-        <td class="pv2 ph3">4:30</td>
-        <td class="pv2 ph3">5:20</td>
-      </tr>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">5:20</td>
-        <td class="pv2 ph3">6:00</td>
-        <td class="pv2 ph3">5:50</td>
-        <td class="pv2 ph3">5:40</td>
-        <td class="pv2 ph3">6:20</td>
-      </tr>
-      <tr class="striped--light-gray">
-        <td class="pv2 ph3">6:20 PM</td>
-        <td class="pv2 ph3">7:00 PM</td>
-        <td class="pv2 ph3">6:50 PM</td>
-        <td class="pv2 ph3">6:40 PM</td>
-        <td class="pv2 ph3">7:20 PM</td>
-      </tr>
-    </tbody>
-  </table>
+  <!-- media queries for setting width -->
+  <div style="width:370px;" class="overflow-scroll">
+    <table class="collapse bg-light-green black ba br2 b--black-10 pv2 ph3 tc">
+      <caption class="white f3 f4-ns pv2">
+        Monday - Friday
+      </caption>
+      <thead>
+        <tr class="">
+          <th class="f5 lh-copy fw6 pv2 ph3">Leave Hamilton</th>
+          <th class="f5 lh-copy fw6 pv2 ph3">Leave Watford Bridge</th>
+          <th class="f5 lh-copy fw6 pv2 ph3">Leave Cavello Bay</th>
+          <th class="f5 lh-copy fw6 pv2 ph3">Leave Rockaway</th>
+          <th class="f5 lh-copy fw6 pv2 ph3">Arrive Hamilton</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">6:40 AM</td>
+          <td class="pv2 ph3">7:00 AM</td>
+          <td class="pv2 ph3">7:10 AM</td>
+          <td class="pv2 ph3">7:20 AM</td>
+          <td class="pv2 ph3">7:45 AM</td>
+        </tr>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">7:10</td>
+          <td class="pv2 ph3">-</td>
+          <td class="pv2 ph3">-</td>
+          <td class="pv2 ph3">7:55</td>
+          <td class="pv2 ph3">8:15</td>
+        </tr>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">7:45</td>
+          <td class="pv2 ph3">8:00</td>
+          <td class="pv2 ph3">8:10</td>
+          <td class="pv2 ph3">8:20</td>
+          <td class="pv2 ph3">8:45</td>
+        </tr>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">4:10</td>
+          <td class="pv2 ph3">4:50</td>
+          <td class="pv2 ph3">4:40</td>
+          <td class="pv2 ph3">4:30</td>
+          <td class="pv2 ph3">5:20</td>
+        </tr>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">5:20</td>
+          <td class="pv2 ph3">6:00</td>
+          <td class="pv2 ph3">5:50</td>
+          <td class="pv2 ph3">5:40</td>
+          <td class="pv2 ph3">6:20</td>
+        </tr>
+        <tr class="striped--light-gray">
+          <td class="pv2 ph3">6:20 PM</td>
+          <td class="pv2 ph3">7:00 PM</td>
+          <td class="pv2 ph3">6:50 PM</td>
+          <td class="pv2 ph3">6:40 PM</td>
+          <td class="pv2 ph3">7:20 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </greenroute>
 <orangeroute id="orangeroute" class="bg-orange white pv3 pv4-ns ph3 ph6-l flex flex-column items-center flex-auto">
   <h1 class="f3 lh-title tc mb0">
